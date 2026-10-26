@@ -16,16 +16,3 @@ h1, h2, h3, h4, h5, h6, .page-title {
 pre, code {
   font-family: var(--font-mono) !important;
 }
-
-/* 首页间距优化 */
-.page-title {
-  margin-bottom: 12px;
-}
-.markdown h2 {
-  margin-top: 2rem;
-  border-bottom: 1px solid #333;
-  padding-bottom: 6px;
-}
-.markdown ul {
-  line-height: 1.8;
-}
