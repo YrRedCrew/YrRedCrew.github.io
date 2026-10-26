@@ -132,6 +132,15 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    options:
+      sortFn: |
+        (a, b) => {
+          // 优先按order排序，没有order就放到后面、按标题字母排
+          const oa = a.file?.frontmatter?.order ?? 9999;
+          const ob = b.file?.frontmatter?.order ?? 9999;
+          if (oa !== ob) return oa - ob;
+          return a.displayName.localeCompare(b.displayName);
+        }
     layout:
       position: left
       priority: 50
