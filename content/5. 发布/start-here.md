@@ -1,5 +1,6 @@
 ---
 pub-blog: true
+order: 1
 permalink: /5/start-here/
 blog-path: 5. 发布/start-here.md
 title: 这里开始
