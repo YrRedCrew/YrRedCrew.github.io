@@ -1,5 +1,6 @@
 ---
 pub-blog: true
+order: 2
 permalink: /5/chengdu-song/
 blog-path: 5. 发布/chengdu-song.md
 title: 成都情歌
