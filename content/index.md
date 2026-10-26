@@ -1,15 +1,13 @@
 ---
-title: 首页
+title: 我的笔记花园
 ---
+🌿 记录、整理、沉淀
 
-# 我的笔记花园
-技术笔记 · 折腾记录 · 随手备忘
+## 📝 最近更新
+{{< recent-notes limit=5 >}}
 
-> 专注网络运维、IDC、软路由、Obsidian、Linux 相关内容
+## 🏷️ 全部标签
+{{< tag-list >}}
 
-### ✍️ 笔记
-- [[Obsidian使用情况]]
-- [[OpenWrt自动封禁爆破IP]]
-
-### 订阅
-- [RSS](/index.xml)
+## 📡 订阅
+[RSS 订阅](/index.xml)
