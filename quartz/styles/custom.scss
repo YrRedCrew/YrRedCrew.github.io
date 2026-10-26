@@ -2,9 +2,9 @@
 
 // put your custom CSS here!
 :root {
-  --font-sans: "KaiTi", "STKaiti", serif;
-  --font-serif: "KaiTi", "STKaiti", serif;
-  --font-mono: "SimHei", monospace;
+  --font-sans: "Microsoft YaHei", system-ui, sans-serif;
+  --font-serif: "Microsoft YaHei", system-ui, sans-serif;
+  --font-mono: "Courier New", monospace;
 }
 
 body, .sidebar, .search-input, .toc, .graph-view, .popover {
@@ -16,4 +16,3 @@ h1, h2, h3, h4, h5, h6, .page-title {
 pre, code {
   font-family: var(--font-mono) !important;
 }
-
