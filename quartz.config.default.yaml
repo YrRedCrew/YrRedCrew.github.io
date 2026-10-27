@@ -71,8 +71,12 @@ plugins:
     enabled: true
     order: 50
     layout:
-      position: right
-      priority: 30
+      - position: right
+        priority: 30
+        display: desktop-only
+      - position: beforeBody
+        priority: 40
+        display: mobile-only
   - source: "@quartz-community/crawl-links"
     enabled: true
     options:
