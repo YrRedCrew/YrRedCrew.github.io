@@ -75,13 +75,16 @@ plugins:
       priority: 30
       display: desktop-only
 
-  # 移动端：正文上方目录
+  # 移动端：正文上方目录，【重点：showByDefault: false 默认折叠】
   - source: "@quartz-community/table-of-contents"
     enabled: true
+    options:
+      showByDefault: false
     layout:
       position: beforeBody
       priority: 40
       display: mobile-only
+
   - source: "@quartz-community/crawl-links"
     enabled: true
     options:
