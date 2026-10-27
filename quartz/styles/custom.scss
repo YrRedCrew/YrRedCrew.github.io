@@ -16,21 +16,3 @@ h1, h2, h3, h4, h5, h6, .page-title {
 pre, code {
   font-family: var(--font-mono) !important;
 }
-
-/* 移动端toc强制默认关闭details */
-.mobile .toc {
-  border: 1px solid #333842;
-  border-radius: 8px;
-  padding: 0.6rem 1rem;
-  margin-bottom: 1.5rem;
-}
-.mobile .toc summary {
-  font-weight: bold;
-  cursor: pointer;
-}
-
-@layer scripts {
-  script#fix-toc-details {
-    display: none;
-  }
-}
