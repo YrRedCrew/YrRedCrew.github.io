@@ -68,7 +68,7 @@ plugins:
     enabled: true
     order: 40
 
- # 桌面端：右侧边栏TOC，默认展开
+ # 桌面端：右侧边栏TOC
   - source: "@quartz-community/table-of-contents"
     enabled: true
     options:
